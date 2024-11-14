@@ -2,7 +2,7 @@
 
 ## Description
 
-  To create a site for testing and deployment actions in GitHub.
+ To create a site for testing and deployment actions in GitHub.
 
 ## Table of Contents
 
