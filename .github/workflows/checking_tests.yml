@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - staging
+      - main
 
 jobs:
   test:
@@ -26,7 +27,9 @@ jobs:
       - name: Build App
         run: npm run build
 
-      - name: Run Cypress tests
-        run: npx cypress run
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          component: true
 
 
